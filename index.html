@@ -3,71 +3,127 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kappa Software Labs B.V. - Software Engineering Excellence</title>
+  <title>Kappa Software Labs B.V. — Software Engineering Excellence</title>
   <meta name="description"
-    content="Kappa Software Labs B.V. - Delivering premium software solutions and engineering excellence." />
+    content="Kappa Software Labs B.V. — Delivering premium software solutions and engineering excellence." />
 </head>
 
 <body>
   <div id="app">
+
+    <nav>
+      <a href="/" class="nav-logo">
+        <img src="/logo.svg" alt="Kappa Software Labs mark" />
+        <div class="nav-wordmark">
+          <span class="nav-wordmark-name">Kappa</span>
+          <span class="nav-wordmark-sub">SOFTWARE LABS</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
     <header class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
       <div class="hero-content">
-        <h1>Kappa Software Labs</h1>
-        <p class="tagline">Engineering the Future of Software</p>
-        <a href="#contact" class="cta-button">Get in Touch</a>
+        <img src="/logo.svg" alt="Kappa Software Labs" class="hero-logo" />
+        <p class="hero-eyebrow">Kappa Software Labs B.V.</p>
+        <h1>Engineering the<br /><span>Future of Software</span></h1>
+        <p class="tagline">
+          We build high-performance, scalable, and aesthetically superior digital
+          solutions — blending cutting-edge technology with meticulous design.
+        </p>
+        <div class="cta-group">
+          <a href="#contact" class="btn-primary">Get in Touch</a>
+          <a href="#services" class="btn-secondary">Our Services</a>
+        </div>
       </div>
-      <div class="hero-background"></div>
     </header>
+
+    <hr class="divider" />
 
     <main>
       <section id="about" class="section">
+        <p class="section-label">About</p>
         <h2>Who We Are</h2>
-        <p>
-          Kappa Software Labs B.V. is a premier software engineering firm dedicated to building high-performance,
-          scalable, and aesthetically superior digital solutions.
-          We blend cutting-edge technology with meticulous design to deliver results that matter.
+        <p class="section-lead">
+          Kappa Software Labs B.V. is a premier software engineering firm dedicated to building
+          high-performance, scalable digital solutions. We blend cutting-edge technology with
+          meticulous design to deliver results that matter.
         </p>
       </section>
 
+      <hr class="divider" />
+
       <section id="services" class="section">
+        <p class="section-label">Services</p>
         <h2>Our Expertise</h2>
         <div class="grid">
           <div class="card">
+            <div class="card-icon"></div>
             <h3>Custom Development</h3>
             <p>Tailor-made software solutions designed to meet your specific business challenges.</p>
           </div>
           <div class="card">
+            <div class="card-icon"></div>
             <h3>System Architecture</h3>
             <p>Robust and scalable architecture design for high-load applications.</p>
           </div>
           <div class="card">
+            <div class="card-icon"></div>
             <h3>Technical Consulting</h3>
             <p>Strategic guidance to navigate complex technology landscapes.</p>
           </div>
         </div>
       </section>
 
+      <hr class="divider" />
+
       <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <p>Ready to start your next project?</p>
-        <div class="contact-info">
-          <p><strong>Kappa Software Labs B.V.</strong></p>
-          <p>Email: <a href="mailto:contact@kappasoftwarelabs.nl">contact@kappasoftwarelabs.nl</a></p>
-          <p>KVK 99351498 | BTW NL868947854B01</p>
-          <p>
-            Spreeuwlaan 21<br>
-            1343 CD Almere<br>
-            Nederland
-          </p>
+        <p class="section-label">Contact</p>
+        <h2>Get in Touch</h2>
+        <p class="section-lead">Ready to start your next project? Reach out and let's talk.</p>
+        <div class="contact-block">
+          <div class="contact-cell">
+            <p class="contact-cell-label">Email</p>
+            <p><a href="mailto:contact@kappasoftwarelabs.nl">contact@kappasoftwarelabs.nl</a></p>
+          </div>
+          <div class="contact-cell">
+            <p class="contact-cell-label">Address</p>
+            <p>
+              Spreeuwlaan 21<br />
+              1343 CD Almere<br />
+              Nederland
+            </p>
+          </div>
+          <div class="contact-cell">
+            <p class="contact-cell-label">Registration</p>
+            <p>
+              <strong>KVK</strong> 99351498<br />
+              <strong>BTW</strong> NL868947854B01
+            </p>
+          </div>
+          <div class="contact-cell">
+            <p class="contact-cell-label">Company</p>
+            <p><strong>Kappa Software Labs B.V.</strong></p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2026 Kappa Software Labs B.V. All rights reserved.</p>
+      <span class="footer-copy">&copy; 2026 Kappa Software Labs B.V.</span>
+      <div class="footer-mark">
+        <img src="/logo.svg" alt="" />
+      </div>
     </footer>
+
   </div>
   <script type="module" src="./src/main.js"></script>
 </body>
